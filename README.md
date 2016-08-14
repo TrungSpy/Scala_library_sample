@@ -1,7 +1,8 @@
 # Scala_library_sample
-1. Fix project/build.properties with  sbt.version=0.13.12
-2. Run "$ sbt run" to download ,compile source
-
+1. Download cookbook source code
+  https://github.com/xerial/scala-cookbook/tree/min-project
+2. Fix project/build.properties with  sbt.version=0.13.12
+3. Run "$ sbt run" to download ,compile source code
 
 ```
 bin/sbt             sbtを実行するスクリプト (Windowsの場合は、sbt.bar)
@@ -16,9 +17,9 @@ project/build.sbt   sbtのプラグインの設定
 lib                 mavenなどで見つからないライブラリ(jar)の置き場
 .gitignore          gitで管理しないファイルの設定
 ```
-3. Run "$ sbt gen-idea" to create IntelliJ project
-4. Run "$ sbt publish-local" to create library with jar, javadoc files
-5. Run "$ sbt package-dist" to make pakage files at target/dist folder.
+4. Run "$ sbt gen-idea" to create IntelliJ project
+5. Run "$ sbt publish-local" to create library with jar, javadoc files
+6. Run "$ sbt package-dist" to make pakage files at target/dist folder.
 
 ```
 bin/launch                実行用スクリプト

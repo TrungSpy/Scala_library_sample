@@ -4,6 +4,10 @@ import sbt._
 import Keys._
 import sbt.classpath.ClasspathUtilities
 
+/**
+  *  @author Phan Van Trung
+  */
+
 object PackageTask {
 
   val distAllClasspaths = TaskKey[Seq[Classpath]]("dist-all-classpaths")
